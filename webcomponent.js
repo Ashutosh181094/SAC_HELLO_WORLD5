@@ -1,7 +1,13 @@
 (function()  {
+    
+    let chartsJS=document.createElement('script');
+    chartsJS.src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js';
+    chartsJS.async=false;
+    document.head.appendChild(chartsJS);
     let tmpl = document.createElement('template');
     tmpl.innerHTML = `
     `;
+	
 
     customElements.define('com-sap-sample-helloworld5', class HelloWorld extends HTMLElement {
 
