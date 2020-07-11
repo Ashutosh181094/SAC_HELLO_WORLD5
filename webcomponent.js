@@ -6,9 +6,7 @@
     document.head.appendChild(chartsJS);
 	
     
-    let tmpl = document.createElement('template');
-    tmpl.innerHTML = `
-    `;
+   
 	
     
     chartsJS.onload = () => 
