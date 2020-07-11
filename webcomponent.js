@@ -15,7 +15,7 @@
     tmpl.innerHTML = `
     `;
 	
-    chartsJS.onload = () =>
+    
     customElements.define('com-sap-sample-helloworld5', class HelloWorld extends HTMLElement {
 
 
